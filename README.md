@@ -10,6 +10,26 @@ To extract the table data from the pdf in an automated way to a panda dataframe 
   ```
   
 * Imported Pandas and Tabula
-* Used Tabula Library to scraoe the tables from the given PDF file and convert those to CSV file
-* 
+  ```
+  import pandas as pd
+  import tabula
+  ```
+* Converted the PDF into DataFrame
+
+  ```
+  file = "ca-warn-report.pdf"
+  dataFrame = tabula.read_pdf(file,pages='all')
+  ```
+
+* Testing/Viewing the dataframe
+  ```
+  dataFrame
+  ```
+  You can check page wise by writing the command dataFrame[page_no] e.g: dataFrame[0]
+  
+* Used Tabula Library to scrape the tables from the given PDF file and convert those to CSV file
+  ```
+  tabula.convert_into("ca-warn-report.pdf", "csv-warnReport.csv", output_format="csv", pages='all')
+  ```
+
 
