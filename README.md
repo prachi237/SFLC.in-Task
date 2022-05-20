@@ -1,6 +1,6 @@
 # SFLC.in-Task
 
-To extract the table data from the pdf in an automated way to a panda dataframe or CSV the steps I followed are as follows:
+To extract the table data from the pdf in an automated way to a panda dataframe or CSV the steps in brief that I followed are as follows:
 
 * Installed Pandas and Tabula Library
   
