@@ -1,5 +1,9 @@
 # SFLC.in-Task
 
+Source Code File:  dataAbstraction_Code.ipynb
+CSV File Obtained: csv-warnReport.csv
+
+
 To extract the table data from the pdf in an automated way to a panda dataframe or CSV the steps in brief that I followed are as follows:
 
 * Installed Pandas and Tabula Library
