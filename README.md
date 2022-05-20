@@ -1,7 +1,7 @@
 # SFLC.in-Task
 
-Source Code File:  dataAbstraction_Code.ipynb
-CSV File Obtained: csv-warnReport.csv
+Source Code File:  [[https://github.com/prachi237/SFLC.in-Task/blob/master/csv-warnReport.csv](https://github.com/prachi237/SFLC.in-Task/blob/master/dataAbstraction_Code.ipynb)](dataAbstraction_Code.ipynb)
+<br> CSV File Obtained: [https://github.com/prachi237/SFLC.in-Task/blob/master/csv-warnReport.csv](csv-warnReport.csv)
 
 
 To extract the table data from the pdf in an automated way to a panda dataframe or CSV the steps in brief that I followed are as follows:
